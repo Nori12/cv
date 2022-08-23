@@ -1,0 +1,201 @@
+
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: "Open Sans", "Montserrat", sans-serif;
+}
+
+ul, ol {
+    font-family: "Open Sans", "Montserrat", sans-serif;
+}
+
+li {
+    padding: 3px 0;
+}
+
+.header-paragraph {
+    font-size: 1.25rem;
+    color: #727878;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.subheading-desc {
+    text-align: left;
+    font-weight: 300;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #F3EFE0;
+}
+
+.white-section {
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+.section-heading {
+    color: #22A39F;
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin: 1.25rem 0;
+}
+
+.section-subheading {
+    color: #22A39F;
+    text-align: left;
+    font-weight: 300;
+    margin: 1.25rem 0;
+}
+
+.section-hr {
+    margin: 2.5rem 0;
+    border: solid none none none;
+    border-color: #727878;
+    border-top-width: 1px;
+    opacity: 0.2;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Title Section */
+
+.bg-image {
+    height: 946px;
+    /* height: 69rem; */
+    background-image: url("../images/kenshin.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+.bg-image-overlay {
+    background-color: #22A39F;
+    position: absolute;
+    top: 0;
+    opacity: 0.75;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.title-text {
+    position: relative;
+    /* position: absolute; */
+    top: 35%;
+    text-align: center;
+    z-index: 2;
+}
+
+.big-title {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgba(255,255,255,0.35);
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.big-paragraph {
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+/* Profile Section */
+
+.self-img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+/* Experiences Section */
+
+.experience {
+    margin-bottom: 1.25rem;
+}
+
+.exp-place {
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-align: left;
+    margin: 0 0 0.625rem 0;
+}
+
+.exp-period {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.exp-job {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 0.625rem 0;
+}
+
+.exp-desc {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* Abilities Section */
+
+.no-bullet {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.ability-title {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.ability-score {
+    float: right;
+}
+
+.star-icon {
+    color: #22A39F;
+}
+
+/* Contact Section */
+
+#footer {
+    background-color: #434242;
+}
+
+#footer .section-heading {
+    color: #FFFFFF;
+}
+
+#footer .header-paragraph {
+    color: #727878;
+}
